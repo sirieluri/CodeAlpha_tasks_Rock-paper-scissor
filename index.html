@@ -3,63 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<title>MOVIE_CATALOG</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
 </head>
-<body> 
-    <div class="navbar">
-        <div class="navbar-container">
-           <div class="logo-container"><h1 class="logo">CINECODE</h1>
-           </div>
-               <div class="menu-container">
-                   <ul class="menu-list">
-                    <li class="menu-list-item active"><h3>Home</h3></li>
-                    <li class="menu-list-item"><b>Movies</b></li>
-                    <li class="menu-list-item"><b>TV Shows</b></li>
-                    <li class="menu-list-item"><b>Popular</b></li>
-                    <li class="menu-list-item"><b>Trending</b></li>
-                   </ul>
-                </div>
-        
-    
-                <div class="profile-container">   
-                    <img class="profile-picture" src="img/profile.jpg" alt="Profile Picture">
-                    <div class="profile-text-container">
-                    <span class="profile-text">Profile</span>
-                    <i class="fa-solid fa-caret-down"></i>
-                </div>
-                <div class="toggle">
-                    <i class="fa-solid fa-moon toggle-icon"></i>
-                    <i class="fa-solid fa-sun toggle-icon"></i>
-                    <div class="toggle-ball"></div>
-                </div>
-        </div>
+<body>
+    <h1>ROCK-PAPER-SCISSORS</h1>
+
+    <div id ="choices">
+    <button onclick="playgame('rock')">✊</button>
+    <button onclick="playgame('paper')">✋</button>
+    <button onclick="playgame('scissors')">✌️</button>
+    </div>
+
+     
+
+
+    <div id = "playerdisplay">PLAYER   :</div>
+    <div id = "computerdisplay">COMPUTER :</div>
+    <div id = "resultdisplay"></div>
+
+    <div class = "scoredisplay">PLAYER SCORE:
+        <span id="playerscoredisplay">0</span>
     </div>
 
 
-            <div class="sidebar">
-            <i class="left-menu-icon fa-solid fa-house-chimney-user"></i>
-            <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
-            <i class="left-menu-icon fa-solid fa-users"></i>
-            <i class="left-menu-icon fa-solid fa-bookmark"></i>
-            <i class="left-menu-icon fa-solid fa-tv"></i>
-            <i class="left-menu-icon fa-solid fa-hourglass-end"></i>
-            <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
-            </div>
-            <div class="container">
-                <div class="content-container">
-                  <div class="futured-content"
-                                     style="background :url('img/F-1.jpg')">
-                                     <img class="futured-title" src="img/F-1-1.jpg" alt="Title">
-                                     <p class="futured-desc">A young farm boy accidentally opens a magical skyway to a realm of fearsome giants after trading for mystical beans. He must then lead a daring rescue mission to save a captured princess and stop the invading monsters from destroying his kingdom</p>
-                                     <button class="futured-button">Watch</button>
-                                </div>
-                            <div class="movie-list-container">
-                            <h1 class="movie-list-title">New Releases</h1>
+    <div class = "scoredisplay">COMPUTER SCORE:
+        <span id="computerscoredisplay">0</span>
+    </div>
+
+    <div id = "winnerdisplay"></div>
+
+    <div>
+    <button id="playAgainBtn" onclick="playAgain()">
+         Play Again
+    </button>
+</div>
+
+    <div id = "rules"> <h2>Rules:</h2>
+        <ul>
+       <li> Rock beats Scissors (crushes them).</li>
+       <li> Scissors beats Paper (cuts it)</li>
+       <li> Paper beats Rock (covers it)</li>
+       <li> Identical moves result in a tie</li>
+       </ul>
+    </div >
+       
+<div id="leftPanel">
+    
+        <h4>🏆 First to reach 10 points wins!</h4>
+        <ul>
+            <li>Scissors : Represented by (✌️)</li>
+            <li>Paper :Represented by palm(✋)</li>
+            <li>Rock : Represented by fist  (✊)</li>
+
+
+
+        </ul>
+       
+        
+    
+
+  
+</div>
+
+
+
+    <script src ="app.js"></script>
+    
+</body>
+</html>                            <h1 class="movie-list-title">New Releases</h1>
                                     <div class="movie-list-wrapper">
                                            <div class="movie-list">
 
