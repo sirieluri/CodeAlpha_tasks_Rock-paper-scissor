@@ -1,6 +1,6 @@
 ## 🚀 Live Demo
 
-🔗 https://harieluri543-png.github.io/ROCK-PAPER-SCISSORS_GAME/
+🔗 
 
 # ✊ Rock Paper Scissors Game
 
@@ -10,17 +10,7 @@ A fun and interactive **Rock Paper Scissors** game built using **HTML, CSS, and 
 
 ---
 
-## 📸 Screenshot
-
-> Add screenshots of your project here.
-
-### Home Page
-
-![Home Page](screenshots/home.png)
-
-### Mobile View
-
-![Mobile View](screenshots/mobile.png)
+## 📸 Screenshots
 
 ---
 
