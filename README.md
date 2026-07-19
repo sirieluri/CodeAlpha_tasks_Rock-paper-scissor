@@ -1,6 +1,6 @@
 ## 🚀 Live Demo
 
-🔗 
+🔗 https://sirieluri.github.io/CodeAlpha_tasks_Rock-paper-scissor/
 
 # ✊ Rock Paper Scissors Game
 
