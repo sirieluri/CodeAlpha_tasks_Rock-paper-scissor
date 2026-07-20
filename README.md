@@ -65,7 +65,7 @@ ROCK-PAPER-SCISSORS_GAME/
 1. Download or clone the repository.
 
 ```bash
-git clone https://github.com/harieluri543-png/ROCK-PAPER-SCISSORS_GAME.git
+git clone https://github.com/sirieluri543-png/ROCK-PAPER-SCISSORS_GAME.git
 ```
 
 2. Open the project folder.
@@ -86,10 +86,11 @@ The game is optimized for:
 
 ## 👨‍💻 Author
 
-**Hari Eluri**
+**Siri Eluri**
 
 GitHub:
-https://github.com/harieluri543-png
+https://github.com/sirieluri543-png
+
 
 ---
 
